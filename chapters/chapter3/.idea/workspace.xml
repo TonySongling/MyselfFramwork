@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a91eb9-b4de-4b9d-8926-991cc6e0a555" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chapter2/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chapter2/src/test/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chapter2/src/test/resources/sql/customer_init.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/ConfigConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/HelperLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/annotation/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/annotation/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/annotation/Inject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/annotation/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/bean/Handler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/bean/Request.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/helper/BeanHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/helper/ClassHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/helper/ConfigHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/helper/ControllerHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/helper/IocHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/ArrayUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/CastUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/ClassUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/CollectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/PropsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/ReflectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../smart-framwork/src/main/java/cn/migu/framwork/util/StringUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/pom.xml" afterPath="$PROJECT_DIR$/../chapter2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/controller/CustomerServlet.java" afterPath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/controller/CustomerServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/helper/DatabaseHelper.java" afterPath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/helper/DatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/model/Customer.java" afterPath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/model/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/service/CustomerService.java" afterPath="$PROJECT_DIR$/../chapter2/src/main/java/cn/migu/chapter2/service/CustomerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/main/webapp/WEB-INF/View/customer.jsp" afterPath="$PROJECT_DIR$/../chapter2/src/main/webapp/WEB-INF/View/customer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/src/test/java/cn/migu/chapter2/test/CustomerServiceTest.java" afterPath="$PROJECT_DIR$/../chapter2/src/test/java/cn/migu/chapter2/test/CustomerServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../chapter2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chapter2/chapter2.iml" afterPath="$PROJECT_DIR$/../chapter2/chapter2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../smart-framwork/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../smart-framwork/.idea/workspace.xml" />
     </list>
     <ignored path="chapter3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,6 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,14 +231,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -700,6 +674,7 @@
       <workItem from="1480324319735" duration="668000" />
       <workItem from="1480338287512" duration="746000" />
       <workItem from="1480381116936" duration="1450000" />
+      <workItem from="1480411993891" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="chapter3">
       <created>1480410749388</created>
@@ -712,11 +687,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4486000" />
+    <option name="totallyTimeSpent" value="5123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -760,6 +735,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/smart.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
