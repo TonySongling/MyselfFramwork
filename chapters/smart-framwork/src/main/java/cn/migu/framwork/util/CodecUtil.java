@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
-
+import org.apache.commons.codec.digest.DigestUtils;
 /**
  * 编码与解码操作工具类
  * Created by Song on 2016/11/30.
@@ -37,5 +37,14 @@ public final class CodecUtil {
             throw new RuntimeException(e);
         }
         return target;
+    }
+
+    /**
+     * MD5加密
+     * @param source
+     * @return
+     */
+    public static String md5(String source){
+        return DigestUtils.md5Hex(source);
     }
 }

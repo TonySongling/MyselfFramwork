@@ -1,9 +1,7 @@
 package cn.migu.framwork;
 
 import cn.migu.framwork.annotation.Controller;
-import cn.migu.framwork.helper.BeanHelper;
-import cn.migu.framwork.helper.ClassHelper;
-import cn.migu.framwork.helper.IocHelper;
+import cn.migu.framwork.helper.*;
 import cn.migu.framwork.util.ClassUtil;
 
 /**
@@ -15,8 +13,9 @@ public final class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
-                Controller.class
+                ControllerHelper.class
         };
         for (Class<?> cls : classList){
             ClassUtil.loadClass(cls.getName());

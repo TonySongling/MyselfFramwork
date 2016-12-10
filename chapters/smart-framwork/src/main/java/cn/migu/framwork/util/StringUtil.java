@@ -10,8 +10,16 @@ import java.io.InputStreamReader;
 /**
  * Created by Song on 2016/11/23.
  */
-public final class StringUtil {
+public class StringUtil {
 
+    /**
+     * 字符串分隔符
+     */
+    public static final String SEPARATOR = String.valueOf((char) 29);
+
+//    public static void main(String args[]){
+//        System.out.println(SEPARATOR);
+//    }
     /**
      * 判断字符串是否为空
      * @param strValue

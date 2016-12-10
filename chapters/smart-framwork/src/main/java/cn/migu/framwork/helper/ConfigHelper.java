@@ -1,5 +1,6 @@
 package cn.migu.framwork.helper;
 
+import cn.migu.framwork.util.CastUtil;
 import cn.migu.framwork.util.PropsUtil;
 import cn.migu.framwork.ConfigConstant;
 import java.util.Properties;
@@ -58,5 +59,26 @@ public final class ConfigHelper {
      */
     public static String getAssetPath(){
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_ASSET_PATH, "/asset/");
+    }
+
+    /**
+     * 获取应用文件上传限制
+     * @return
+     */
+    public static int getAppUploadLimit(){
+        return PropsUtil.getInt(CONFIG_PROPS, ConfigConstant.APP_UPLOAD_LIMIT, 10);
+    }
+
+    /**
+     *
+     * @param source
+     * @return
+     */
+    public static String getString(String source){
+        return CastUtil.castString(source);
+    }
+
+    public static boolean getBooealn(String source){
+        return CastUtil.castBoolean(source);
     }
 }
