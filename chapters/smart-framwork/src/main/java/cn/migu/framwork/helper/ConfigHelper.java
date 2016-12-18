@@ -75,10 +75,10 @@ public final class ConfigHelper {
      * @return
      */
     public static String getString(String source){
-        return CastUtil.castString(source);
+        return PropsUtil.getString(CONFIG_PROPS, source);
     }
 
     public static boolean getBooealn(String source){
-        return CastUtil.castBoolean(source);
+        return PropsUtil.getBoolean(CONFIG_PROPS, source);
     }
 }

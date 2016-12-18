@@ -37,7 +37,7 @@ public class SmartSecurityFilter extends ShiroFilter{
         }
     }
 
-    private void setRealms(WebSecurityManager webSecurityManager) {
+    private void setRealms(WebSecurityManager webSecurityManager) throws ClassNotFoundException {
         //读取smart.plugin.security.realms配置项
         String securityRealms = SecurityConfig.getRealms();
         if (securityRealms != null){
@@ -61,7 +61,7 @@ public class SmartSecurityFilter extends ShiroFilter{
         }
     }
 
-    private void addCustomRealm(Set<Realm> realms) {
+    private void addCustomRealm(Set<Realm> realms) throws ClassNotFoundException {
         //读取smart.plugin.security.custom.class配置项
         SmartSecurity smartSecurity = SecurityConfig.getSmartSecurity();
         //添加自己实现的Realm

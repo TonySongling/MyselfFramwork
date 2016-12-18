@@ -102,5 +102,23 @@
             <artifactId>commons-codec</artifactId>
             <version>1.6</version>
         </dependency>
+        <!-- smart-plugin-security -->
+        <dependency>
+            <groupId>cn.migu</groupId>
+            <artifactId>smart-plugin-security</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- smart-plugin-soap -->
+        <dependency>
+            <groupId>cn.migu</groupId>
+            <artifactId>smart-plugin-soap</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- smart-plugin-rest -->
+        <dependency>
+            <groupId>cn.migu</groupId>
+            <artifactId>smart-plugin-rest</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
